@@ -1,0 +1,131 @@
+
+<link rel="shortcut icon" href="/brand/common/favicon-ml.png">
+<link rel="icon" sizes="192x192" href="/brand/common/favicon-ml.png">
+
+<link rel="stylesheet" href="https://milletonline.itembox.design/system/fs_style.css">
+<link rel="stylesheet" href="https://milletonline.itembox.design/generate/theme4/fs_original.css">
+
+
+<script>
+
+ window._FS=window._FS||{};_FS.val={"clientInfo":{"memberId":"guest","fullName":"ゲスト","lastName":"","firstName":"ゲスト","nickName":"ゲスト","stageId":"","stageName":"","subscribedToNewsletter":"false","loggedIn":"false","totalPoints":"","activePoints":"","pendingPoints":"","purchasePointExpiration":"","specialPointExpiration":"","specialPoints":"","pointRate":"","companyName":"","membershipCardNo":""},"device":"PC","cart":{"stayOnPage":false}};
+
+</script>
+
+<script src="/shop/js/webstore-vg.js"></script>
+<script src="//r2.future-shop.jp/fs.milletonline/pc/recommend.js"></script>
+
+  
+<link rel="stylesheet" href="https://milletonline.itembox.design/item/asset/css/jquery-ui.min.css"/>
+<link rel="stylesheet" href="https://milletonline.itembox.design/item/asset/css/jquery-ui.structure.min.css"/>
+<link rel="stylesheet" href="https://milletonline.itembox.design/item/asset/css/jquery-ui.theme.min.css"/>
+<link rel="stylesheet" href="https://milletonline.itembox.design/item/asset/css/slick.css"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"/>
+<script src="https://milletonline.itembox.design/item/asset/js/jquery-3.4.1.min.js"></script>
+<script src="https://milletonline.itembox.design/item/asset/js/jquery-ui.min.js"></script>
+<script src="https://milletonline.itembox.design/item/asset/js/slick.min.js"></script>
+<script src="https://www.millet.jp/brand/common/bootstrap.min.js"></script>
+
+
+<!-- 共通JS↓↓ -->
+<script>
+
+  $(function(){
+
+    /* 追尾ヘッダー
+    ----------------------------------------------------------------*/
+    var $header_out = $('#header');
+    var $header_wrap = $('#header .wrap');
+    var $header_sp = $('header .sp_parts');
+    var addclassName = 'scrolled';
+    var startPos = 100;
+    var baseHeader = 52;
+
+    $(window).on('load scroll resize', function() {
+      var value = $(this).scrollTop();
+      if (value > startPos) {
+        $header_out.addClass(addclassName);
+      } else {
+        $header_out.removeClass(addclassName);
+      }
+    });
+
+    /* 商品マーク
+    -- 販売系は1番目のみ表示、機能系は3番目まで表示。
+    ----------------------------------------------------------------*/
+    $(".fs-c-productMark").each(function(){
+      $(".mark-hanbai:gt(0)", this).parent("li").hide();
+      $(".mark-kinou:gt(2)", this).parent("li").hide();
+      $(this).css("visibility", "visible");
+    });
+
+    /* ヘッダの高さ計算
+    ----------------------------------------------------------------*/
+    var sp_head_height = $(".head-news-parts").outerHeight() + $(".head-sp").outerHeight();
+    $(".head-sp-hamburger").css("height", "calc(100% - " + sp_head_height + "px)");
+    $(".head-sp-hamburger").css("top", sp_head_height + "px");
+
+    /* SPハンバーガーメニュー開閉
+    ----------------------------------------------------------------*/
+    $(".js-sp-menu-click").click(function(){
+      if ($(".head-sp-hamburger").hasClass("is-active")){
+        $(".head-sp-hamburger").removeClass("is-active");
+        $("html").css("overflow", "auto");
+      } else {
+        $(".head-sp-hamburger").addClass("is-active");
+        $("html").css("overflow", "hidden");
+      }
+    });
+
+    /* SPリストメニュー開閉
+    ----------------------------------------------------------------*/
+    $(".js-sp-listitem-click").click(function(){
+      if ($(this).parent("li").hasClass("open")){
+        $(this).parent("li").removeClass("open");
+        $(this).parent("li").addClass("close");
+      } else {
+        $(this).parent("li").removeClass("close");
+        $(this).parent("li").addClass("open");
+      }
+      return false;
+    });
+
+  });
+
+  /* ウィンドウサイズによるmainの上margin調整
+  ----------------------------------------------------------------*/
+  $(window).on('load resize', function(){
+    var w = $(window).outerWidth();
+    var size_m = 980;
+    var size_s = 768;
+    if (w < size_s) {
+      $("main").css("margin-top", $(".head-news-parts").outerHeight() + 20 + "px");
+    } else if (w < size_m) {
+      var sp_head_height = $(".head-news-parts").outerHeight() + $(".head-sp").outerHeight();
+      $("main").css("margin-top", sp_head_height + 20 + "px");
+    } else {
+      $("main").css("margin-top", "0px");
+    }
+  });
+
+</script>
+<!-- 共通JS↑↑ -->
+
+<style>
+@font-face {
+  font-family: Knockout-28JuniorFeathrwt;
+  src: url();
+  src: url(?#iefix) format("embedded-opentype"), url() format("woff"), url() format("truetype");
+  font-weight: 400;
+  font-style: normal
+}
+@font-face {
+  font-family: KnockoutHTF26JuniorFlyweight;
+  src: url();
+  src: url(?#iefix) format("embedded-opentype"), url() format("woff"), url() format("truetype");
+  font-weight: 400;
+  font-style: normal
+}
+</style>
+
+

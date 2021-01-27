@@ -1,0 +1,301 @@
+.mv {
+  background-image: url("../img/power-of-dry/mv_power-of-dry_pc.png");
+}
+
+/* sec01 */
+.sec01 .catch {
+  margin: 63px auto 70px;
+}
+.sec01 .bg-wrap {
+  position: relative;
+  margin-bottom: 14px;
+  color: #fff;
+  background-image: url(../img/power-of-dry/sec01-bg_pc.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 857px;
+  text-align: center;
+  padding-top: 96px;
+}
+
+.sec01 .bg-wrap .bg-wrap-ttl {
+  font-size: 5rem;
+  font-weight: bold;
+  letter-spacing: 10px;
+  margin-bottom: 50px;
+}
+.sec01 .bg-wrap .bg-wrap-txt {
+  font-size: 2rem;
+  letter-spacing: 5px;
+  line-height: 2;
+  margin-bottom: 60px;
+}
+
+.sec01 .btm-txt {
+  margin: 0 auto 28px;
+  font-size: 6rem;
+  font-weight: bold;
+  text-align: center;
+  color: #C90000;
+  line-height: 1.858;
+}
+.border-bottom {
+  border-bottom: 4px solid #C90000;
+}
+
+/* sec02 */
+.sec02 .txt {
+  color: #606162
+}
+.sec02 .pdc-head {
+  margin-top: 62px;
+  margin-bottom: 70px;
+}
+.item-txt-wrap .r-mark {
+  font-size: 4rem;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  line-height: 1;
+}
+.tm {
+  display: none;
+}
+.txt-box .item-txt-wrap .sub-ttl {
+  font-size: 3rem;
+  margin-bottom: 17px;
+}
+
+.txt-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 70px;
+}
+/* サブタイトル */
+.item .sub-ttl {
+  margin-bottom: 26px;
+  font-weight: bold;
+}
+.item .sub-int {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.body-ttl {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.sec02 .pdc-body {
+  margin-bottom: 46px;
+}
+
+.pdc-body .item.col3 {
+  width: calc((100% - 100px) / 3);
+}
+.pdc-body .item figure {
+  margin-bottom: 29px;
+}
+.sec02-2 .txt-box .sub-ttl {
+  margin-bottom: 26px;
+}
+.sec02-2 .pdc-body .item {
+  width: calc((100% - 50px) / 2);
+}
+.sec02 .btn {
+  margin-bottom: 50px;
+}
+.sec02 .item {
+  width: calc((100% - 52px) / 2);
+}
+
+.sec03 .bg-wrap {
+  position: relative;
+  margin-top: 53px;
+  margin-bottom: 24px;
+}
+.bg-wrap .more-btn {
+  position: absolute;
+  left: 5.5vw;
+  bottom: 5.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 135px;
+  height: 34px;
+  background-color: #fff;
+  color: #FC0C1B;
+  font-size: 2rem;
+}
+
+
+
+@media screen and (min-width: 1110px) {
+  .bg-wrap .more-btn {
+    left: 61px;
+    bottom: 61px;
+  }
+}
+
+/*------------ mobile ------------*/
+@media screen and (max-width: 767px) {
+  .mv {
+    background-image: url("../img/power-of-dry/mv_power-of-dry_sp.png");
+  }
+  .sec01 .catch {
+    font-size: 2rem;
+    letter-spacing: 3px;
+    margin: 55px auto 47px;
+  }
+  .sec01 .bg-wrap {
+    padding-top: 70px;
+  }
+  .sec01 .bg-wrap .bg-wrap-ttl {
+    font-size: 3rem;
+    letter-spacing: 5px;
+    margin-bottom: 26.5px;
+  }
+  .sec01 .bg-wrap .bg-wrap-txt {
+    font-size: 1.4rem;
+    letter-spacing: 4px;
+    line-height: 2.5;
+    margin-bottom: 52px;
+  }
+  .sec01 .btm-txt {
+    margin-top: 45px;
+    font-size: 4.2rem;
+    line-height: 1.38;
+  }
+  .item-txt-wrap .r-mark {
+   display: none;
+  }
+  .tm {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    font-size: 1.8rem;
+    line-height: 1;
+}
+  .sec02 .txt {
+    font-size: 1.4rem;
+  }
+  .sec02 .pdc-head {
+    flex-direction: column;
+    margin-top: 35px;
+    margin-bottom: 21px;
+  }
+  .sec02-1 .pdc-body figure {
+    margin-bottom: 10px;
+  }
+  .sec02-1 .pdc-body .txt {
+    font-size: 1.2rem;
+  }
+  .sec02-2 .pdc-body .txt {
+    font-size: 1.5rem;
+  }
+  .sec02 .item {
+    width: 100%;
+    padding: 0;
+  }
+  .sec02 .pdc-head .item figure {
+    max-width: 274px;
+    margin: 0 auto 20px;
+  }
+  .txt-box .ttl {
+    font-size: 3rem;
+
+    margin-bottom: 9px;
+  }
+  .txt-box .item-txt-wrap .sub-ttl {
+    font-size: 1.5rem;
+    line-height: 1.466;
+    margin-bottom: 24px;
+  }
+  .item .txt {
+    letter-spacing: 2px;
+  }
+  .body-ttl {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    margin-bottom: 12px;
+  }
+  .pdc-body .item.col3 {
+    width: calc((100% - 34px) / 3);
+  }
+  .sec02 .pdc-body {
+    margin-bottom: 40px;
+  }
+  a.link-btn {
+    max-width: 211px;
+    height: 34px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 58px;
+    background-color: #FF2600;
+  }
+  .sec02-2 .pdc-head .item:nth-of-type(1),
+  .sec02-3 .pdc-body .item:nth-of-type(1),
+  .sec02-4 .pdc-body .item:nth-of-type(1) {
+    order: 2;
+  }
+  .sec02-2 .pdc-head .item:nth-of-type(2),
+  .sec02-3 .pdc-body .item:nth-of-type(2),
+  .sec02-4 .pdc-body .item:nth-of-type(2) {
+    order: 1;
+  }
+  .item .sub-int {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+  }
+
+  .sec02-2 .pdc-body .item {
+    width: calc((100% - 17px) / 2);
+  }
+  .sec02-2 .pdc-body .sub-ttl {
+    font-size: 1.5rem;
+    height: 45px;
+    margin-bottom: 5px;
+  }
+  .sec02-3 .pdc-head {
+    margin-bottom: 36px;
+  }
+
+  .sec02-3 .pdc-body .sub-ttl,
+  .sec02-4 .pdc-body .sub-ttl  {
+    font-size: 2.2rem;
+    margin-bottom: 13px;
+  }
+  .sec02-4 .pdc-head {
+    margin-bottom: 42px;
+  }
+  .sec02-4 .pdc-body .sub-int  {
+  padding-top: 3px;
+  }
+  .sec03 .bg-wrap {
+    margin-top: 40px;
+    margin-bottom: 48px;
+  }
+  .sec03 .bg-wrap .more-btn {
+    bottom: 4vw;
+    width: 17vw;
+    height: 4vw;
+    font-size: 2.5vw;
+    letter-spacing: 0;
+  }
+}
+
+/*------------ iphoneSE対応 ------------*/
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .sec01 .catch {
+    font-size: 1.8rem;
+  }
+  .sec01 .bg-wrap .bg-wrap-txt {
+  font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,451 @@
+/* 共通プロパティ *//*test*/
+/* font */
+@font-face {
+    font-family: UniSansHeavyCAPS;
+    src: url("https://milletonline.itembox.design/item/asset/fonts/UniSansHeavyCAPS-webfont.eot");
+    src: url("https://milletonline.itembox.design/item/asset/fonts/UniSansHeavyCAPS-webfont.eot") format("embedded-opentype"), url("https://milletonline.itembox.design/item/asset/fonts/UniSansHeavyCAPS-webfont.ttf") format("woff"), url("https://milletonline.itembox.design/item/asset/fonts/UniSansHeavyCAPS-webfont.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+  }
+* {
+    margin: 0;
+    padding: 0;
+}
+section {
+    margin: 0;
+    overflow: hidden;
+}
+html {
+    font-size: 10px;
+}
+body {
+    font-family:"メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Osaka", sans-serif;
+    color: #000;
+}
+/* .power-of-dry,
+.power-of-smart,
+.washi,
+.drynamic-through {
+    font-family:"AXIS Std", "ＭＳ Ｐゴシック", "MS PGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Osaka", sans-serif;
+} */
+.main h1 {
+    font-size: 9rem;
+    font-weight: 900;
+    text-align: center;
+}
+.main h2 {
+    font-size: 6rem;
+    margin: 0;
+    text-align: center;
+}
+.main p {
+    font-size: 1.5rem;
+    letter-spacing: 3.5px;
+    line-height: 1.66;
+}
+
+.main ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.main li {
+    width: 50%;
+}
+
+.main img {
+    width: 100%;
+    vertical-align: top;
+}
+dl,dt,dd {
+    margin: 0;
+    font-weight: normal;
+}
+figure {
+    margin: 0;
+}
+
+/* pcサイズでは表示 */
+.pc {
+    display: block;
+}
+/* spサイズでは非表示 */
+.sp {
+    display: none;
+}
+main {
+    margin: 0;
+    width: initial;
+    max-width: initial;
+}
+.main .inner {
+    max-width: 1110px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* ボタン */
+a.link-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 283px;
+    height: 47px;
+    margin: 0 auto 69px;
+    padding: 0;
+    background-color: #FF0000;
+    color: #fff;
+    font-size: 1.8rem;
+}
+.link-btn:hover,
+.more-btn:hover {
+    opacity: 0.8;
+}
+
+/* メインヴィジュアル */
+.mv {
+    position: relative;
+    height: 82vh;
+    max-height: 555px;
+    padding-bottom: 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.mvTxt {
+    position: absolute;
+    width: 260px;
+    left: 15px;
+    bottom: 28px;
+    color: #fff;
+    font-size: 2.6rem;
+}
+
+/* 背景をグレイに */
+.bg-grey {
+    background-color: #EFEFEF;
+}
+
+
+/* キャッチ */
+.sec01 .catch {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 5px;
+}
+
+/* タイトル */
+.main .ttl {
+    position: relative;
+    font-size: 6rem;
+}
+/* サブタイトル */
+.main .sub-ttl {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    line-height: 1.3333;
+}
+
+.txt-box {
+    padding-right: 30px;
+}
+
+.txt-box .ttl {
+    text-align: left;
+    line-height: 1;
+    margin-bottom: 9px;
+}
+.img-wrap {
+    position: relative;
+}
+/* フォント指定をunisansに */
+.uni {
+    font-family: UniSansHeavy, UniSansHeavyCAPS, "Helvetica Neue", Helvetica, Arial, Meiryo, メイリオ, sans-serif;
+}
+/* 3カラム */
+.main .col3 {
+    width: 33.333333%;
+}
+/* 4カラム */
+.main .col4 {
+    width: 25%;
+}
+/* margin-bottom: 0; */
+.mb0 {
+    margin-bottom: 0!important;
+}
+/* margin-bottom: 110px; */
+.mb110 {
+    margin-bottom: 110px!important;
+}
+
+/* padding-left: 0; */
+.pl0 {
+    padding-left: 0;
+}
+/* padding-left: 100px; */
+.pl100 {
+    padding-left: 100px;
+}
+/* padding-right: 0; */
+.pr0 {
+    padding-right: 0!important;
+}
+/* padding-top: 20px; */
+.pt20 {
+    padding-top: 20px;
+}
+  /* border-right: none */
+/* .br-none {
+    border-right: none!important;
+}   */
+
+/* WASHI/drynamic-THROUGH共通スタイル */
+.washi .sec01 .ttl,
+.drynamic-through .sec01 .ttl {
+    font-size: 9rem;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 43px;
+    color: #4D4C4C;
+}
+.washi .sec01 .sub-ttl,
+.drynamic-through .sec01 .sub-ttl {
+     display: block;
+}
+.washi .sec01 .catch,
+.drynamic-through .sec01 .catch {
+     font-size: 2.5rem;
+     font-weight: 400;
+     margin-bottom: 75px;
+}
+.washi .sec02 .img-wrap,
+.drynamic-through .sec02 .img-wrap {
+    margin-bottom: 50px;
+}
+.washi .sec02 .over-txt-wrap,
+.drynamic-through .sec02 .over-txt-wrap {
+    position: absolute;
+    top: 50%;
+    left: 4.5%;
+    transform: translateY(-50%);
+    max-width: 400px;
+    color: #fff;
+}
+.washi .sec02 .sub-ttl,
+.drynamic-through .sec02 .sub-ttl {
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.66;
+    margin-bottom: 10px;
+}
+.washi .sec02 .img-txt-wrap,
+.drynamic-through .sec02 .img-txt-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.washi .sec02 .img-txt-wrap,
+.drynamic-through .sec02 .img-txt-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.washi .list-area .ttl,
+.drynamic-through .list-area .ttl {
+    font-size: 4rem;
+    margin-bottom: 12px;
+    color: #4D4C4C;
+}
+.washi .list-area .list,
+.drynamic-through .list-area .list {
+    border: 2px solid #DBDBDB;
+}
+.washi .list-area .item,
+.drynamic-through .list-area .item {
+    border-right: 2px solid #DBDBDB;
+    text-align: center;
+    padding: 6px 18px 31px;
+}
+.washi .list-area .item,
+.drynamic-through .list-area .item {
+    border-right: 2px solid #DBDBDB;
+    text-align: center;
+    padding: 0 0 31px;
+}
+.washi .list-area .br-none,
+.drynamic-through .list-area .br-none {
+    border-right: none;
+}
+.washi .list-area figure,
+.drynamic-through .list-area figure {
+    margin-bottom: 10px;
+}
+.washi .list-area p,
+.drynamic-through .list-area p {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+}
+.washi .list-area p,
+.drynamic-through .list-area p {
+    font-family: "AXIS Std", sans-serif;
+}
+
+/* footer更新用 */
+.footer-joinus {
+    margin-top: 85px;
+}
+.f-main-menu li,
+.f-sub-menu li {
+    display: block;
+}
+.bottom-logo-groupe {
+    padding-bottom: 0;
+    padding: 0;
+}
+.easycms-content {
+    width: initial;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.bottom-logo-groupe ul img {
+    width: 80%;
+}
+.newsletter-text.pc-only {
+    margin: 1rem 0;
+}
+footer {
+    margin-top: 40px;
+}
+footer .f-link_box ul li {
+    display: block;
+}
+.bottom-logo-groupe {
+    padding-bottom: 0;
+}
+a.newsletter_btn {
+    padding: 10px 37px;
+    line-height: 1.5;
+}
+
+/*------------ mobile ------------*/
+@media screen and (max-width: 767px) {
+    .pc {
+        display: none;
+    }
+    .sp {
+        display: block;
+    }
+    .main .sp-col2 {
+        width: 50%;
+    }
+    .sp-white {
+        background-color: #fff;
+    }
+    .main .inner {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .mv-txt {
+        left: 59px;
+        bottom: 56px;
+        font-size: 3.5rem;
+     }
+    /* padding: 0; */
+    .main .sp-p0 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .main .sub-ttl {
+        letter-spacing: 2px;
+    }
+
+    /* WASHI/drynamic-THROUGH共通スタイル */
+    .washi .list-area .sp-br-none,
+    .drynamic-through .list-area .sp-br-none {
+        border-right: none;
+    }
+    .washi .sec01 .ttl {
+        font-size: 4.2rem;
+        margin-top: 49px;
+        margin-bottom: 29px;
+    }
+    .washi .sec01 .sub-ttl,
+    .drynamic-through .sec01 .sub-ttl {
+        font-size: 1.8rem;
+    }
+    .washi .sec01 .catch,
+    .drynamic-through .sec01 .catch {
+        font-size: 1.6rem;
+        font-weight: 400;
+        margin-bottom: 55px;
+    }
+    .washi .sec02 .over-txt-wrap,
+    .drynamic-through .sec02 .over-txt-wrap {
+        position: initial;
+        top: initial;
+        left: initial;
+        transform: initial;
+        max-width: initial;
+        color: #000;
+    }
+    .washi .sec02 .sub-ttl,
+    .drynamic-through .sec02 .sub-ttl {
+        font-size: 2.2rem;
+        font-weight: bold;
+        margin-bottom: 16px;
+        padding-top: 31px;
+    }
+    .washi .img-wrap .txt,
+    .drynamic-through .img-wrap .txt {
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        line-height: 2.14;
+    }
+    .washi .sec02 .img-wrap .list,
+    .drynamic-through .sec02 .img-wrap .list {
+        flex-direction: column;
+    }
+    .washi .sec02 .img-wrap .item,
+    .drynamic-through .sec02 .img-wrap .item {
+        width: 100%;
+    }
+    .washi .sec02 .img-wrap:nth-of-type(2) .item:nth-of-type(1) {
+        order: 2;
+    }
+    .washi .sec02 .img-wrap:nth-of-type(2) .item:nth-of-type(2) {
+        order: 1;
+    }
+    .washi .sec02 .img-txt-wrap,
+    .drynamic-through .sec02 .img-txt-wrap {
+        display: initial;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .washi .list-area .ttl {
+        font-size: 2.6rem;
+        margin-bottom: 25px;
+        color: #4D4C4C;
+    }
+    .washi .list-area .item,
+    .drynamic-through .list-area .item {
+        border-bottom: 2px solid #DBDBDB;
+        padding: 0 0 31px;
+    }
+    .washi .list-area p {
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+}
+

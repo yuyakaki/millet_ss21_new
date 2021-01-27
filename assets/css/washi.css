@@ -1,0 +1,10 @@
+.mv {
+  background-image: url("../img/washi/mv_washi_pc.png");
+}
+
+@media screen and (max-width: 767px) {
+  .mv {
+    background-image: url("../img/washi/mv_washi_sp.png");
+  }
+
+}

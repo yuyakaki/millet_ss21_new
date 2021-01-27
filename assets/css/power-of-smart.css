@@ -1,0 +1,264 @@
+.pc {
+  display: inline-block;
+}
+.main .inner {
+  overflow: initial;
+}
+
+.mv {
+  background-image: url("../img/power-of-smart/mv_power-of-smart_pc.png");
+}
+.sec01 .catch {
+  margin-top: 75px;
+  margin-bottom: 70px;
+}
+.sec02 .head {
+  padding-top: 80px;
+  padding-bottom: 73px;
+  background-position: 7% 55%;
+  background-repeat: no-repeat;
+}
+.sec02-1 .head {
+  background-image: url(../img/power-of-smart/sec02-1-001.png);
+}
+.sec02-2 .head {
+  background-image: url(../img/power-of-smart/sec02-2-001.png);
+}
+.sec02-3 .head {
+  background-image: url(../img/power-of-smart/sec02-3-001.png);
+}
+.head .ttl {
+  position: relative;
+  line-height: 2.03;
+}
+.head .ttl:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 22px;
+  transform: translateX(-50%);
+  width: 75px;
+  height: 2px;
+  background-color: #525252;
+}
+.sec02 .int {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 2;
+  text-align: center;
+}
+
+.sec02 .img-wrap {
+  margin-bottom: 56px;
+}
+.sec02 .bg-left-over {
+  margin-left: calc(((100vw - 100%) / 2) * -1);
+}
+.sec02 .bg-right-over {
+  margin-right: calc(((100vw - 100%) / 2) * -1);
+}
+.sec02 .dl-wrap {
+  padding-top: 20px;
+  /* margin-bottom: -41px; */
+  text-align: right;
+}
+.sec02 dl {
+  /* display: inline-block; */
+  font-size: 1.5rem;
+  line-height: 1.466;
+}
+.sec02 dl a {
+  text-decoration: underline;
+}
+.sec02 dt,
+.sec02 dd {
+  display: inline-block;
+}
+.sec02-1 .img-int {
+  position: absolute;
+  bottom: 11%;
+  max-width: 390px;
+}
+/* margin-bottom: 120px; */
+.sec02 .img-wrap.mb120-sp50 {
+  margin-bottom: 120px;
+}
+.inner667 {
+  max-width: 667px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-blc {
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 61px;
+}
+.btn-blc .ttl {
+  font-size: 3.6rem;
+  line-height: 2;
+}
+.btn-blc .more-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 184px;
+  height: 34px;
+  background-color: #000;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.8rem;
+}
+.btn-blc .more-btn::after {
+  content: ">";
+  position: relative;
+  left: 5px;
+}  
+.sec02-2 figure.bg-left-over {
+  margin-right: 39.7%;
+}
+.sec02-2 .img-int {
+  position: absolute;
+  max-width: 37.1%;
+  right: 0;
+  bottom: 0;
+}
+.sec02-3 .img-int {
+  position: absolute;
+  max-width: 413px;
+  right: 140px;
+  bottom: 0;
+}
+.sec02 .mb249 {
+  padding-bottom: 249px!important;
+}
+.btm-det-box .ttl {
+  font-size: 2.3rem;
+  text-align: left;
+  line-height: 2;
+  border-bottom: 3px solid #707070;
+  margin-bottom: 36px;
+}
+.btm-det-box {
+  margin-bottom: 110px;
+}
+.btm-det-box .col3 {
+  width: calc((100% - 114px) / 3);
+}
+.btm-det-box figure {
+  margin-bottom: 20px;
+}
+.btm-det-box .item-ttl {
+  font-size: 2.5rem;
+  line-height: 2;
+  text-align: center;
+}
+
+/*------------ mobile ------------*/
+@media screen and (max-width: 767px) {
+  .pc {
+    display: none;
+  }
+  .mb71 {
+    margin-bottom: 71px;
+  }
+  
+  .inner667 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .mv {
+    background-image: url("../img/power-of-smart/mv_power-of-smart_sp.png");
+  }
+  .sec01 .catch {
+    font-size: 2rem;
+    letter-spacing: 3px;
+    margin: 55px auto 59px;
+  }
+  .sec02 .head {
+      padding-top: 42px;
+      padding-bottom: 87px;
+      background-position: 100% 100%;
+      background-size: 133px;
+  }
+  .head .ttl {
+    font-size: 4.2rem;
+    margin-bottom: 18px;
+    line-height: 1.5;
+  }
+  .head .ttl:after {
+    bottom: 10px;
+    width: 40px;
+  }
+  .sec02 .int {
+    font-size: 1.6rem;
+  }
+  
+  .sec02 .dl-wrap {
+    padding-top: 15px;
+    padding-right: 15px;
+    text-align: right;
+}
+  .sec02 dl {
+    font-size: 1.2rem;
+    line-height: 1.833;
+    letter-spacing: 1px;
+  }
+  .sec02 .img-int-box {
+    position: initial;
+    max-width: initial;
+    height: initial;
+    display: block;
+}
+  .sec02 .img-int {
+  position: initial;
+  max-width: initial;
+  padding-top: 15px;
+  font-size: 1.4rem;
+  letter-spacing: 1.4px;
+}
+/* margin-bottom: 50px; */
+.sec02 .img-wrap.mb120-sp50 {
+  margin-bottom: 50px;
+}
+.sec02-3 .img-int {
+  max-width: initial;
+}
+.btn-blc .ttl {
+  font-size: 2.4rem;
+}
+.more-btn {
+  font-size: 1.6rem;
+}
+.sec02-2 figure.bg-left-over {
+  margin: 0;
+}
+.sec02-2 .img-int {
+  max-width: initial;
+}
+.sec02 .bg-right-over {
+  margin-right: 0;
+}
+.sec02 .img-wrap {
+  margin-bottom: 50px;
+}
+.btm-det-box {
+  padding-top: 67px;
+  margin-bottom: 0;
+}
+.btm-det-box .ttl {
+  font-size: 1.8rem;
+  margin-bottom: 41px;
+}
+.btm-det-box .list {
+  flex-direction: column;
+}
+.btm-det-box .col3 {
+  width: 100%;
+}
+.btm-det-box .item-ttl {
+  font-size: 2.9rem;
+  margin-bottom: 57px;
+  color: #4D4C4C;
+}
+}

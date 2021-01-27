@@ -1,0 +1,29 @@
+.mv {
+  /* background-image: url("../img/power-of-dry/power-of-dry-mv-sp.png"); */
+  background-image: url("../img/common/place_mv_pc.png");
+}
+.sec01 .catch {
+  max-width: 536px;
+  margin: 69px auto 81px;
+}
+.sec01 .bg-wrap {
+  margin-bottom: 29px;
+}
+.sec01 .btm-txt {
+  margin: 0 auto 43px;
+}
+
+.sec02 .pdc-head {
+  margin-top: 62px;
+  margin-bottom: 109px;
+}
+.sec02 .pdc-body {
+  margin-bottom: 50px;
+}
+.sec02 .btn {
+  margin-bottom: 50px;
+}
+.sec03 .bg-wrap {
+  margin-top: 53px;
+  margin-bottom: 24px;
+}

@@ -1,0 +1,102 @@
+/* Source Sans Pro */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+.mv {
+  background-image: url("../img/drynamic-through/mv_drynamic-through_pc.png");
+}
+
+.ssp {
+  font-weight: normal;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.ssp .r-mark {
+  display: inline-block;
+}
+.drynamic-through .sec01 .ttl {
+  margin-top: 51px;
+}
+.drynamic-through .list-area .ttl {
+  margin-bottom: 37px;
+}
+.drynamic-through .sec01 .catch {
+  margin-bottom: 81px;
+}
+.list-area .list-head {
+  background-color: #DDDDDD;
+  color: #4D4C4C;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 2.5rem!important;
+}
+.list-area .item-name {
+  margin-bottom: 13px;
+}
+
+/* margin-bottom: 121px; */
+.drynamic-through .sec02 .img-wrap.mb121 {
+  margin-bottom: 121px;
+}
+
+@media screen and (max-width: 767px) {
+  .sp {
+    display: inline-block;
+  }
+  .mv {
+    background-image: url("../img/drynamic-through/mv_drynamic-through_sp.png");
+  }
+  .ssp {
+    display: block;
+    font-size: 2.0rem;
+}
+.drynamic-through .sec01 .ttl {
+  font-size: 3.4rem;
+  margin-top: 50px;
+  margin-bottom: 37px;
+}
+.tm {
+  position: absolute;
+  top: 0;
+}
+.ssp .r-mark {
+  display: none;
+}
+.drynamic-through .sec01 .catch {
+  margin-bottom: 47px;
+}
+.sec02 .img-wrap:nth-of-type(2) .item:nth-of-type(1) {
+  order: 2;
+}
+.sec02 .img-wrap:nth-of-type(2) .item:nth-of-type(2) {
+  order: 1;
+}
+.sec02 .img-wrap:nth-of-type(4) .item:nth-of-type(1) {
+  order: 2;
+}
+.sec02 .img-wrap:nth-of-type(4) .item:nth-of-type(2) {
+  order: 1;
+}
+.drynamic-through .sec02 .img-wrap {
+  margin-bottom: 40px;
+}
+.drynamic-through .sec02 .img-wrap.mb121 {
+  margin-bottom: 56px;
+}
+.drynamic-through .list-area .ttl {
+  font-size: 2.5rem;
+  margin-bottom: 29px;
+  letter-spacing: 0.5px;
+}
+.list-area .list-head {
+  font-size: 2.2rem!important;
+}
+.drynamic-through .list-area p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+.list-area .item-name {
+  margin-bottom: 7px;
+}
+.drynamic-through .list-area .item {
+  padding-bottom: 19px;
+}
+}

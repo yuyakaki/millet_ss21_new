@@ -1,0 +1,170 @@
+/*wear*/
+.logo {
+	margin: 0;
+}
+#gl-head .header-info-bar {
+	width: 100%!important;
+}
+.pageTitle {
+	font-size: 36px;
+}
+.pageTitle-weight {
+	font-size: 100%;
+	font-weight: bold;
+}
+b, strong {
+	font-weight: bold;
+}
+nav {
+	vertical-align: bottom;
+}
+.navPageTitle {
+	font-size: 18px;
+	font-weight: bold;
+	color: #333;
+	margin-right: 30px;
+	padding: 14.5px 0;
+	float:left;
+}
+.navBox {
+	background: #ff0000;
+}
+.navbar {
+	display: flex;
+	align-items: center;
+	margin: auto;
+	width: 90%;
+	max-width: 1320px;
+}
+@media screen and (max-width: 767px) {
+	.navbar {
+		display: block;
+		width: 100%;
+	}
+	.marginTopBottomL > h2 {
+		font-size: 23px;
+	}
+	.pageTitle {
+		line-height: 1.2;
+		font-size: 26px;
+	}
+	.navPageTitle {
+		margin-left: 5%;
+		line-height: 2.5;
+		height: 20px;
+	}
+	.navbar-inverse .navbar-collapse {
+		width: 100%;
+		padding: 10px 15px 0px 130px;
+	}
+	.navbar-nav > li > a {
+		margin-bottom: 0;
+	}
+	.navPageTitle {
+		padding: 7px 5% 0;
+		font-size: 14px;
+	}
+	.mainvisual-fw {
+		height: 60vw !important;
+	}
+}
+@media screen and (max-width: 767px) {
+}
+@media screen and (min-width: 768px) {
+	.pageTitle > br {
+		display: none;
+	}
+}
+.navbar-collapse {
+	padding: 0;
+}
+.navbar-nav > li  {
+	height: 60px;
+}
+
+.navbar-nav > li > a {
+	margin-bottom: 0;
+}
+#gl-head nav#category-nav ul.level0>li>a {
+	font-size: 15px;
+}
+.mainvisual-fw {
+	height: 500px;
+	width: 100%;
+	object-fit: cover;
+}
+p,li {
+	font-size: 100%;
+}
+.pcode {
+	line-height: 250%;
+}
+#pList .pBox .modal{
+	border: none;
+	right: 0;
+	left: 0;
+	position: relative;
+}
+.modaal-content-container > dl {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.modaal-content-container > dl > dt {
+	margin-right: 30px;
+	width: 100%;
+	max-width: 150px;
+}
+.modaal-content-container > dl > dd {
+	width: 100%;
+}
+#pList .pBox .imgBox {
+	position: relative;
+}
+#pList .pBox .imgBox .pimg {
+	margin: 30px 0;
+	height: auto;
+	position: absolute;
+}
+@media screen and (max-width: 991px) {
+	#pList .pBox .imgBox .pimg {
+		left: 30%;
+	}
+}
+.f_icon_block {
+	display: block;
+}
+.f_icon_block > ul {
+	position: absolute;
+	bottom: 35%;
+}
+.f_icon_block > ul > li {
+	display: block;
+}
+.color-img {
+	width: 45px;
+	margin: 5px 0;
+}
+.color-img-double {
+	width: 60px;
+	margin: 5px 0;
+}
+.color-img-single {
+	width: 80px;
+}
+/*backpack*/
+.text-center {
+	line-height: 1.5;
+}
+h2 {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.color-img-bp {
+	position: absolute;
+	top: 5%;
+}
+.color-img-bp-single {
+	width: 70px;
+	margin: 5px 0;
+}

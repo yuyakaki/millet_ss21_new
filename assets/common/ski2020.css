@@ -1,0 +1,273 @@
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, span {
+    line-height: 1.5;
+}
+
+#pList {
+    margin-bottom: 160px;
+}
+
+a.move-button.fontBold {
+    padding: 5px;
+    text-align: left;
+}
+
+#rollStopRespNav .navPageTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rollStopRespNav a.product-logo {
+    display: initial;
+    height: initial;
+}
+.container .marginTopBottomL > a + .row.lineHeight180 {
+    display: flex;
+    padding-top: 30px;
+}
+.container .marginTopBottomL > a + .row.lineHeight180 > .col-sm-4.col-xs-12 {
+    text-align: center;
+}
+.container .marginTopBottomL > a + .row.lineHeight180 > .col-sm-4.col-xs-12 h3 {
+    margin-bottom: 10px;
+}
+
+.subTtl {
+    display: block;
+    padding: 0 0 22px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.drynamicBanner {
+    max-width: 1059px;
+    height: 192px;
+    background: #C4C4C4;
+    margin: 0 auto;
+}
+#pList .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pList .row .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: initial;
+}
+
+#pList .pBox {
+    display: flex;
+    flex-direction: column;
+}
+
+#pList .pBox .imgBox {
+    height: initial;
+    padding: 10px 10px 0;
+}
+
+#pList .pBox .imgBox .pimg {
+    position: initial;
+}
+#pList .pBox .imgBox .pimg {
+    margin-bottom: 0;
+}
+
+#pList .specBox .pcode + .pname_jp {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+#pList .specBox .price {
+    font-size: 14px;
+}
+
+#pList .specBox {
+    flex-grow: 2;
+    padding: 0 10px 10px;
+    min-height: initial;
+}
+
+#pList .topBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 30px;
+}
+
+#pList .topBox .f_icon_block > ul {
+    position: initial;
+    bottom: initial;
+}
+
+#pList .bottomBox .f_icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    position: initial;
+    left: initial;
+    bottom: initial;
+    width: initial;
+}
+#pList .bottomBox .f_icon .batting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+    width: calc(33.33333% - 8px);
+    width: 23%;
+    max-width: 98px;
+    margin: 0 2% 8px 0;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#pList .bottomBox .f_icon a {
+    padding: 0;
+    margin-bottom: 8px;
+    width: 23%;
+    max-width: 98px;
+}
+#pList .bottomBox .f_icon a:not(:nth-last-of-type(1)) {
+    margin-right: 2%;
+}
+#pList .bottomBox .f_icon a img {
+    width: 100%;
+    margin: 0;
+}
+#pList .bottomBox .f_icon .blankBox {
+    height: 33px;
+}
+.bottomIconArea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1018px;
+    margin: 0 auto;
+}
+.bottomListItem {
+    width: 23%;
+    max-width: 211px;
+}
+.bottomArea {
+    padding: 6%;
+    background: #FA9999;
+}
+.bottomAreaItem {
+    display: flex;
+}
+.bottomAreaItem:not(:nth-last-of-type(1)) {
+    margin-bottom: 35px;
+}
+.bottomAreaItemLeft {
+    max-width: 172px;
+    width: 30%;
+}
+.bottomAreaItemRight {
+    padding-left: 7%;
+    width: 70%;
+}
+.bottomAreaItemRight .small {
+    display: inline-block;
+    font-size: 10px;
+    vertical-align: top;
+    transform: scale(0.8);
+}
+
+/* main visual */
+.mvBlock {
+    position: relative;
+    display: block;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-size: cover;
+    background-position: center center;
+  }
+  .mvBlock.ski2020-men {
+    background-image: url(../ski2020/img/mv_men1.jpg);
+  }
+  .mvBlock.ski2020-women {
+    background-image: url(../ski2020/img/mv_women1.jpg);
+  }
+  .mvBlock.ski2020-accessary {
+    background-image: url(../ski2020/img/mv_acc2.jpg);
+  }
+  .mvBlock.ski2020-backpack {
+    background-image: url(../ski2020/img/mv_bp3.jpg);
+  }
+
+  @media only screen and (max-width: 768px) {
+    .mvBlock {
+      height: 50vh;
+    }
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    #pList .topBox {
+        position: relative;
+        height: 268px;
+    }
+    #pList .pBox .imgBox .pimg {
+        position: absolute;
+        left: calc(50% - 104px);
+        z-index: 1;
+    }
+    .f_icon_block {
+        position: relative;
+        z-index: 5;
+    }
+  }
+
+@media screen and (min-width: 765px) and (max-width: 840px) {
+    #rollStopRespNav .navPageTitle {
+       margin-left: 10px;
+       margin-right: 10px;
+    }
+    .navbar-nav > li {
+        margin-right: 9px;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+        padding: 15px;
+    }
+}
+@media (max-width: 660px) {
+    .bottomIconArea {
+        justify-content: center;
+    }
+    .bottomListItem {
+        width: initial;
+        margin-bottom: 25px;
+    }
+    .bottomListItem:nth-of-type(even) {
+        margin-left: 25px;
+    }
+}
+@media (max-width: 476px) {
+    .container .marginTopBottomL > a + .row.lineHeight180 {
+        flex-direction: column;
+    }
+
+    .container .marginTopBottomL > a + .row.lineHeight180 > .col-sm-4.col-xs-12 {
+        padding-bottom: 30px;
+    }
+    .bottomListItem {
+        width: 40%;
+    }
+    .bottomAreaItemRight {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .mvBlock.ski2020-women {
+       background-position:  calc(50% - 10vw) center;
+    }
+    .mvBlock.ski2020-accessary {
+       background-position:  calc(50% - 10vw) center;
+    }
+    .mvBlock.ski2020-backpack {
+       background-position:  calc(50% - 10vw) center;
+    }
+    #pList .bottomBox .f_icon .batting {
+        font-size: 10px;
+    }
+  }
