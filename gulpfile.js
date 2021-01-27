@@ -12,12 +12,12 @@ var browserSync = require('browser-sync');
 //setting : paths
 var paths = {
   'root': './dist/',
-  'html': './dist/**/*.html',
+  'html': './dist/*.html',
   // 'cssSrc': './src/scss/**/*.scss',
   // 'cssDist': './dist/css/',
   'jsSrc': './src/js/**/*.js',
   'jsDist': './dist/js/',
-  'ejsSrc': './ejs/**/*.ejs'
+  'ejsSrc': './ejs/*.ejs'
 }
 
 //gulpコマンドの省略

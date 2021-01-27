@@ -1,0 +1,373 @@
+/* AXIS Std */
+._axis {
+    font-family:"AXIS Std", "ＭＳ Ｐゴシック", "MS PGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Osaka", sans-serif;
+}
+
+/* mv */
+.main .mv {
+  background-image: url(../img/layeringsystem/bg_mv_pc.png);
+  margin-bottom: 50px;
+  height: 50vw;
+}
+
+/* mvTxt */
+.main .mvTxt {
+  position: absolute;
+  width: initial;
+  left: 59px;
+  bottom: 56px;
+  color: #fff;
+  font-size: initial;
+  text-align: left;
+}
+.main .mvTxt-ttl {
+  font-size: 8.2vw;
+  text-align: left;
+  line-height: 1.1;
+}
+.main .mvTxt-subTtl {
+  font-size: 3.2vw;
+  font-weight: bold;
+  line-height: 1.42;
+}
+
+/* gnav */
+.main .gnav {
+  margin-left: 0;
+}
+
+/* gnavList */
+.main .gnavList {
+
+}
+.main .gnavList-item {
+  width: calc((100% - 6px) / 4);
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-size: 3rem;
+  line-height: 1;
+  color: #fff;
+  background-color: #838383;
+  cursor: pointer;
+}
+.gnavList-item span {
+  display: block;
+  padding-top: 6px;
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+/* chead */
+.main .chead {
+  position: relative;
+  background-image: url(../img/layeringsystem/bg_chead-alpine.png);
+  height: 31vw;
+  max-height: 388px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  color: #fff;
+}
+/* bg_trekking */
+._trekking .chead {
+  background-image: url(../img/layeringsystem/bg_chead-trekking.png);
+}
+/* bg_hiking */
+._hiking .chead {
+  background-image: url(../img/layeringsystem/bg_chead-hiking.png);
+}
+/* bg_exploring */
+._exploring .chead {
+  background-image: url(../img/layeringsystem/bg_chead-exploring.png);
+}
+.main .chead-topTxt {
+  position: absolute;
+  top: 56px;
+  left: 56px;
+  font-size: 3.5rem;
+  line-height: 1;
+}
+.main .chead-btmTxt {
+  position: absolute;
+  bottom: 59px;
+  left: 60px;
+  font-size: 6rem;
+  font-weight: bold;
+  letter-spacing: 10px;
+  line-height: 1;
+}
+.chead-btmTxt span {
+  font-size: 3.5rem;
+  font-weight: bold;
+  letter-spacing: initial;
+}
+
+/* pdc */
+.main .pdc {
+  margin-bottom: 55px;
+  border-top: 10px solid #FD0D1B;
+}
+.main .pdc-ttl {
+  padding-top: 20px;
+  padding-left: 22px;
+  margin-bottom: 35px;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 1;
+}
+.main .pdcNum {
+  display: inline-block;
+  padding-right: 31px;
+  padding-left: 0;
+  font-size: 60px;
+  line-height: 1;
+  color: #FF0200;
+}
+.pdc-ttl span {
+  padding-left: 18px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* pdcBox */
+.main .pdcBox:nth-of-type(1) {
+  padding-right: 20px;
+}
+.main .pdcBox:nth-of-type(2) {
+  padding-left: 20px;
+}
+.main .pdcBox-ttl {
+  padding: 10px 0;
+  margin-bottom: 57px;
+  font-size: 3rem!important;
+  border: 1px solid #000;
+  text-align: center;
+  line-height: 1;
+}
+.main ._women {
+  color: #FB191B;
+  border-color: #e66668;
+}
+.main .pdcItem {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.main .pdcItem:nth-of-type(n + 3) {
+  margin-top: 75px;
+}
+.pdcItem figure {
+  max-width: 196px;
+  margin: 0 auto 20px;
+}
+.main .pdcItem-ttl {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  line-height: 1.1;
+}
+
+/* .detailBtn */
+.main .detailBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 132px;
+  height: 30px;
+  padding-top: 2px;
+  margin-top: auto; /* 位置を下に揃える */
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FF0200;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 2px;
+}
+
+/* border-right */
+.main ._bdr {
+  border-right: 1px dashed #000;
+}
+
+/* hover */
+.main .gnavList-item:hover {
+  background-color: #FB191B;
+}
+.main .detailBtn:hover {
+  opacity: 0.8;
+}
+
+/* タブ切り替え */
+.main .panel{
+  display:none;
+  border: none;
+  box-shadow: none;
+}
+.main .js-active{
+  background:#F00;
+  color:#FFF;
+  transition: all 0.2s ease-out;
+}
+.main .js-show{
+  display:block;
+}
+
+/*------------ 1110以上 ------------*/
+@media screen and (min-width: 1110px) {
+  .main .mvTxt-ttl {
+    font-size: 9rem;
+  } 
+.main .mvTxt-subTtl {
+  font-size: 3.5rem;
+  }
+}
+
+/*------------ mobile ------------*/
+@media screen and (max-width: 767px) {
+  /* mv */
+  .main .mv {
+    background-image: url(../img/layeringsystem/bg_mv_sp.png);
+    height: 135vw;
+    max-height: initial;
+    margin-bottom: 11.35vw;
+  }
+
+  /* mvTxt */
+  .main .mvTxt {
+    top: 20px;
+    left: 19px;
+  }
+  .main .mvTxt-ttl {
+    font-size: 11.35vw;
+  }
+  .main .mvTxt-subTtl {
+  padding-top: 72vw;
+  font-size: 4.83vw;
+  }
+
+  /* gnavList */
+  .main .gnavList-item {
+    width: calc((100% - 6px) / 4);
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 2.9vw;
+    line-height: 1;
+  }
+  .gnavList-item span {
+    padding-top: 6px;
+    font-size: 2.9vw;
+    line-height: 1;
+  }
+
+  /* chead */
+  .main .chead {
+    background-image: url(../img/layeringsystem/bg_chead-alpine_sp.png);
+    height: 48.31vw;
+    max-height: initial;
+    margin-bottom: 11.35vw;
+  }
+  ._trekking .chead {
+    background-image: url(../img/layeringsystem/bg_chead-trekking_sp.png);
+  }
+  ._hiking .chead {
+    background-image: url(../img/layeringsystem/bg_chead-hiking_sp.png);
+  }
+  ._exploring .chead {
+    background-image: url(../img/layeringsystem/bg_chead-exploring_sp.png);
+  }
+  .main .chead-topTxt {
+    top: 7vw;
+    left: 5.31vw;
+    font-size: 3.62vw;
+  }
+  .main .chead-btmTxt {
+    bottom: 4.59vw;
+    left: 4.83vw;
+    font-size: 5.31vw;
+    letter-spacing: 4px;
+  }
+  .chead-btmTxt span {
+    display: block;    
+    padding-top: 1vw;
+    font-size: 2.9vw;
+  }
+
+  /* pdc */
+  .main .pdc-ttl {
+    padding-top: 4.35vw;
+    padding-left: 3vw;
+    margin-bottom: 6.52vw;
+    font-size: 5.8vw;
+  }
+  .pdc-ttl span {
+    display: block;
+    padding-top: 3vw;
+    padding-left: 10vw;
+    font-size: 3.14vw;
+  }
+  .main .pdc-body {
+    flex-direction: column;
+  }
+
+  /* pdcNum */
+  .main .pdcNum {
+    padding-top: 0;
+    padding-right: 4.5vw;
+    font-size: 10.63vw;
+  }
+  
+  /* pdcBox */
+  main .pdcBox {
+    width: 100%;
+    margin-bottom: 12.8vw;
+  }
+  .main .pdcBox-ttl {
+    padding: 1vw 0;
+    margin-bottom: 6.52vw;
+    font-size: 5.31vw!important;
+  }
+  
+  /* border-right: none; */
+  .main ._bdr {
+    border-right: none;
+  }
+
+  /* margin-right: 0; */
+  .pdcBox ._men {
+    margin-right: 0;
+  }
+
+  /* margin-left: 0; */
+  .pdcBox ._women {
+    margin-left: 0;
+  }
+
+  /* pdcItem */
+  main .pdcItem {
+    width: calc((100% - 5vw) / 2);
+  }
+  .main .pdcItem:nth-of-type(n + 3) {
+    margin-top: 6vw;
+  }
+  .pdcItem figure {
+    margin-bottom: 4.35vw;
+  }
+  .main .pdcItem-ttl {
+    margin-bottom: 1.59vw;
+    font-size: 3.38vw;
+  }
+
+  /* .detailBtn */
+  .main .detailBtn {
+    width: 27vw;
+    height: 7vw;
+    padding-top: 0.48vw;
+    font-size: 2.42vw;
+  }
+}
